@@ -1,0 +1,70 @@
+body {
+    background-image: url(login.png);
+}
+
+
+
+
+.heading {
+    text-align: center;
+    font-size: 7rem;
+    /* Increases the heading size */
+    margin: 10px auto 30px auto;
+    /* Low top margin, auto sides, standard bottom margin */
+    padding: 20px;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+    padding: 30px;
+    max-width: 400px;
+    margin: 50px auto;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.all {
+    text-align: center;
+    /* Centers the text horizontally */
+    margin: 40px auto;
+    /* Adds space above/below and centers the element */
+    padding: 20px;
+    /* Adds space inside the element */
+}
+
+.forgot-password {
+    text-align: right;
+}
+
+.Frame-size {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.signin {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: aqua;
+}
+
+.client {
+    text-align: center;
+    /* Centers the text horizontally */
+    margin: 10px auto;
+    /* Adds space above/below and centers the element */
+    padding: 20px;
+    /* Adds space inside the element */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    background-color: darkblue;
+    color: aliceblue;
+}
